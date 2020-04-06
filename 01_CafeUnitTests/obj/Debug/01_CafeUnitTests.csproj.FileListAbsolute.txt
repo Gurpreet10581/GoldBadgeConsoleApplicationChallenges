@@ -1,0 +1,15 @@
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\01_CafeUnitTests.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\01_CafeUnitTests.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\obj\Debug\01_CafeUnitTests.csprojAssemblyReference.cache
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\obj\Debug\01_CafeUnitTests.csproj.CopyComplete
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\obj\Debug\01_CafeUnitTests.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\obj\Debug\01_CafeUnitTests.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\01_Cafe.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUnitTests\bin\Debug\01_Cafe.pdb

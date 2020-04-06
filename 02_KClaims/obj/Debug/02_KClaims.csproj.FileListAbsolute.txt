@@ -1,0 +1,5 @@
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\02_KClaims\bin\Debug\02_KClaims.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\02_KClaims\bin\Debug\02_KClaims.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\02_KClaims\obj\Debug\02_KClaims.csprojAssemblyReference.cache
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\02_KClaims\obj\Debug\02_KClaims.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\02_KClaims\obj\Debug\02_KClaims.pdb

@@ -1,0 +1,6 @@
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\03_KBadgesUI\bin\Debug\03_KBadgesUI.exe.config
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\03_KBadgesUI\bin\Debug\03_KBadgesUI.exe
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\03_KBadgesUI\bin\Debug\03_KBadgesUI.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\03_KBadgesUI\obj\Debug\03_KBadgesUI.csprojAssemblyReference.cache
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\03_KBadgesUI\obj\Debug\03_KBadgesUI.exe
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\03_KBadgesUI\obj\Debug\03_KBadgesUI.pdb

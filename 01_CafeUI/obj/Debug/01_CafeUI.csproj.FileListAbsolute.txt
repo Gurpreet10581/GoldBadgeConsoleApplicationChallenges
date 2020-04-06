@@ -1,0 +1,9 @@
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\bin\Debug\01_CafeUI.exe.config
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\bin\Debug\01_CafeUI.exe
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\bin\Debug\01_CafeUI.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\bin\Debug\01_Cafe.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\bin\Debug\01_Cafe.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\obj\Debug\01_CafeUI.csprojAssemblyReference.cache
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\obj\Debug\01_CafeUI.csproj.CopyComplete
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\obj\Debug\01_CafeUI.exe
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\01_CafeUI\obj\Debug\01_CafeUI.pdb
