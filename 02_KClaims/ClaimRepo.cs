@@ -8,23 +8,46 @@ namespace _02_KClaims
 {
     public class ClaimRepo
     {
-        private readonly Queue<ClaimClass> _queueOfClaims = new Queue<ClaimClass>();
-
-        private int claimNumber = 0;
-        public void AddNewClaim(ClaimType claimType, string description, decimal claimAmmount, DateTime accidentDate, DateTime claimDate)
+         Queue<ClaimContent> queueList = new Queue<ClaimContent>();
+      
+        public Queue<ClaimContent> GetListOfClaims()
         {
-            claimNumber = ++;
-
-            bool isValid = false;
-            if (((accidentDate - claimDate).TotalDays) < 30)
-                isValid = true;
-
-            ClaimClass claim = new ClaimClass(claimNumber, claimType, description, claimAmmount, accidentDate, claimDate, isValid);
-            _queueOfClaims.Enqueue(claim);
+            return queueList;
+            
         }
-        public Queue<ClaimClass> GetClaims()
+
+        public bool EnterNewClaim(ClaimContent content)
         {
-            return _queueOfClaims;
+
+            int claimCount = queueList.Count;
+            queueList.Enqueue(content);
+            bool wasAdded = (queueList.Count > claimCount) ? true : false;
+            return wasAdded;
         }
+        public ClaimContent OpenNextClaim()
+        {
+
+            //int claimCount = queueList.Count;
+            //queueList.Dequeue();
+            //bool NextClaim = (queueList.Count > claimCount) ? true : false;
+
+            //return NextClaim;
+           return queueList.Dequeue();
+
+            
+
+        }
+        public bool IsValid(ClaimContent claim)
+        {
+            TimeSpan timeFrame = claim.DateOfClaim.Subtract(claim.DateOfAccident);
+
+            if (timeFrame.Days <= 30)
+            {
+                return true;
+            }
+            return false;
+        }
+       
+        
     }
 }

@@ -10,20 +10,7 @@ namespace _01_CafeUnitTests
     {
         
         MenuRepo _repo = new MenuRepo();// creaatinglist to link with repository first step to access
-
-
-        [TestMethod]
-        public void AddName_ShouldAddName()
-        {
-            MenuContent content = new MenuContent();
-
-            content.Name = "Pasta";
-            string expected = "Pasta";
-            string actual = content.Name;
-
-            Assert.AreEqual(expected, actual);
-        }
-
+        
         [TestMethod]
         public void AddItemToMenu_ShouldGeCorrectBool()
         {
@@ -35,7 +22,8 @@ namespace _01_CafeUnitTests
             Assert.IsTrue(addItem);
 
         }
-
+        [TestMethod]
+        
         public void GetMenu_ShouldReturnCorrectMenu()
         {
             MenuContent testContent = new MenuContent();
@@ -44,21 +32,17 @@ namespace _01_CafeUnitTests
 
             List<MenuContent> testList = repo.GetMenu();
             bool menuHasContent = testList.Contains(testContent);
+
+            
         }
-
-
 
         [TestMethod]
         public void GetByName_ShouldReturnCorrectName()
         {
             //Arrange
-
-
             MenuContent content = new MenuContent(1, "Pasta", "Italian", "Flour, Eggs, Salt, Water", 5);
             List<MenuContent> menuItems = _repo.GetMenu();
             menuItems.Add(content);
-
-            
 
             //Act
 
@@ -68,13 +52,6 @@ namespace _01_CafeUnitTests
             Assert.AreEqual(expected,actual);
         }
 
-        public void UpdateExistingMenu_ShouldReturnTrue()
-        {
-
-            MenuContent newContent = new MenuContent(1, "Pasta", "Italian", "Flour, Eggs, Salt, Water", 5);
-            bool updateResult = _repo.UpdateExistingContent("Pasta", newContent);
-            Assert.IsTrue(updateResult);
-        }
 
         [TestMethod]
         public void DeleteItem_ShouldReturnTrue()

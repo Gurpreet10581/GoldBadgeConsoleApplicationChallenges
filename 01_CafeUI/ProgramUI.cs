@@ -85,7 +85,17 @@ namespace _01_CafeUI
             Console.ReadLine();
             
         }
-
+        public void ListMenu()
+        {
+            List<MenuContent> menuList = _menuRepository.GetMenu();
+            foreach (MenuContent menuContent in menuList)
+            {
+                Console.WriteLine($"Meal# {menuContent.MealNumber}\n" +
+                    $"Meal Name- {menuContent.Name}\n" +
+                    $"Description-{menuContent.Description}\n" +
+                    $"Ingredients- {menuContent.Ingredients}");
+            }
+        }
         public void RemoveItemFromList()
         {
             List<MenuContent> menuList = _menuRepository.GetMenu();
@@ -108,17 +118,7 @@ namespace _01_CafeUI
                 }
             }
         }
-        public void ListMenu()
-        {
-            List<MenuContent> menuList = _menuRepository.GetMenu();
-            foreach(MenuContent menuContent in menuList)
-            {
-                Console.WriteLine($"Meal# {menuContent.MealNumber}\n" +
-                    $"Meal Name- {menuContent.Name}\n" +
-                    $"Description-{menuContent.Description}\n" +
-                    $"Ingredients- {menuContent.Ingredients}");
-            }
-        }
+      
         private void SeedMeals()
         {
             MenuContent mealOne = new MenuContent(1, "Pasta", "Italian", "Flour, Eggs, Salt, Water,Veggies", 12);

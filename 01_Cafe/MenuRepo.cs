@@ -9,10 +9,8 @@ namespace _01_Cafe
     
     public class MenuRepo
     {
-        List<MenuContent> _MenuItems = new List<MenuContent>();//creating a feild
+        private readonly List<MenuContent> _MenuItems = new List<MenuContent>();
 
-        
-        //making methods below
 
         public bool AddItemToMenu(MenuContent content)
         {
@@ -40,24 +38,6 @@ namespace _01_Cafe
             return null;
         }
 
-        public bool UpdateExistingContent(string orginalName, MenuContent updatedContent)
-        {
-            MenuContent oldContent = GetMenuByName(orginalName);
-            if(oldContent != null)
-            {
-                oldContent.MealNumber = updatedContent.MealNumber;
-                oldContent.Name = updatedContent.Name;
-                oldContent.Description = updatedContent.Description;
-                oldContent.Ingredients = updatedContent.Ingredients;
-                oldContent.Price = updatedContent.Price;
-
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
 
         public bool RemoveItemFromList(MenuContent menuContent)
         {

@@ -4,3 +4,13 @@ C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChal
 C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\02_KClaimsUI\obj\Debug\02_KClaimsUI.csprojAssemblyReference.cache
 C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\02_KClaimsUI\obj\Debug\02_KClaimsUI.exe
 C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenges\ConsoleChallenges\02_KClaimsUI\obj\Debug\02_KClaimsUI.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\obj\Debug\02_KClaimsUI.csprojAssemblyReference.cache
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\obj\Debug\02_KClaimsUI.exe
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\obj\Debug\02_KClaimsUI.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\bin\Debug\02_KClaimsUI.exe.config
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\bin\Debug\02_KClaimsUI.exe
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\bin\Debug\02_KClaimsUI.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\bin\Debug\02_KClaims.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\bin\Debug\02_KClaims.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\obj\Debug\02_KClaimsUI.csproj.CoreCompileInputs.cache
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\02_KClaimsUI\obj\Debug\02_KClaimsUI.csproj.CopyComplete
