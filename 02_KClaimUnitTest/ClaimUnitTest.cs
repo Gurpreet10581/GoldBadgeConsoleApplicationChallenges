@@ -10,8 +10,7 @@ namespace _02_KClaimUnitTest
     public class ClaimUnitTest
     {
         ClaimRepo _repoTest = new ClaimRepo();
-        Queue queueList = new Queue();
-
+       
         [TestMethod]
         public void ListOfClaims()
         {

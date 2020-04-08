@@ -8,5 +8,6 @@ namespace _03_KBadgesUI
 {
     public class ProgramUI
     {
+        
     }
 }

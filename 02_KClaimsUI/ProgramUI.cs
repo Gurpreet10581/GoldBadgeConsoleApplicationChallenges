@@ -35,7 +35,9 @@ namespace _02_KClaimsUI
                     case 1:
                         Console.Clear();
                         ShowallClaims();
-                        Console.WriteLine();
+                        Console.WriteLine("Press any key to go to main menu...");
+                        Console.ReadKey();
+
                         break;
                     case 2:
                         ReviewNextClaim();
@@ -63,12 +65,12 @@ namespace _02_KClaimsUI
             Queue<ClaimContent> claimList = _claimRepo.GetListOfClaims();
             foreach (ClaimContent claimContent in claimList)
             {
-                Console.WriteLine($"ClaimID- {claimContent.DateOfAccident}\n" +
+                Console.WriteLine($"ClaimID- {claimContent.ClaimID}\n" +
                     $"Type- {claimContent.TypeOfClaim}\n" +
                     $"Description-{claimContent.Description}\n" +
                     $"Claim Amount-{claimContent.ClaimAmount}\n"+
                     $"Date Of Accident-{claimContent.DateOfAccident}\n"+
-                    $"Date Of Claim-{claimContent.DateOfAccident}\n"+
+                    $"Date Of Claim-{claimContent.DateOfClaim}\n"+
                     $"IsValid- {claimContent.IsValid}");
             }
         }
@@ -84,7 +86,7 @@ namespace _02_KClaimsUI
             Console.WriteLine($"Claim Date: {queueList.Peek().DateOfClaim}");
             Console.WriteLine($"Claim Is Valid ? : {queueList.Peek().IsValid}");
 
-            Console.WriteLine("Do you wanned to deal with current Claim?\n" +
+            Console.WriteLine("Do you waned to deal with current Claim?\n" +
                 "Enter Y for Yes\n" +
                 "Enter N for No");
             string userInput = Console.ReadLine();
@@ -145,14 +147,15 @@ namespace _02_KClaimsUI
         private void ClaimSeed()
         {
             ClaimContent claimOne = new ClaimContent(1, ClaimType.Car, "Car accident on 465", 400.00m, new DateTime(2018, 04, 25), new DateTime(2018, 04, 27), true);
+           
             ClaimContent claimTwo = new ClaimContent(2, ClaimType.Home, "House fire in kitchen", 4000.00m, new DateTime(2018, 04, 11), new DateTime(2018, 04, 18), true);
+           
             ClaimContent claimThree = new ClaimContent(3, ClaimType.Theft, "Stolen pancakes", 1000.00m, new DateTime(2018, 04, 27), new DateTime(2018, 06, 01), false);
+           
 
             _claimRepo.EnterNewClaim(claimOne);
-            _claimRepo.EnterNewClaim(claimOne);
-            _claimRepo.EnterNewClaim(claimOne);
-
-
+            _claimRepo.EnterNewClaim(claimTwo);
+            _claimRepo.EnterNewClaim(claimThree);
         }
             
     }

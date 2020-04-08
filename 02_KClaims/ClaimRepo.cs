@@ -13,12 +13,10 @@ namespace _02_KClaims
         public Queue<ClaimContent> GetListOfClaims()
         {
             return queueList;
-            
         }
 
         public bool EnterNewClaim(ClaimContent content)
         {
-
             int claimCount = queueList.Count;
             queueList.Enqueue(content);
             bool wasAdded = (queueList.Count > claimCount) ? true : false;
@@ -26,15 +24,7 @@ namespace _02_KClaims
         }
         public ClaimContent OpenNextClaim()
         {
-
-            //int claimCount = queueList.Count;
-            //queueList.Dequeue();
-            //bool NextClaim = (queueList.Count > claimCount) ? true : false;
-
-            //return NextClaim;
            return queueList.Dequeue();
-
-            
 
         }
         public bool IsValid(ClaimContent claim)

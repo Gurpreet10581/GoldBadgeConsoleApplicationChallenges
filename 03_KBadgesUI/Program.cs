@@ -10,6 +10,8 @@ namespace _03_KBadgesUI
     {
         static void Main(string[] args)
         {
+            ProgramUI program = new ProgramUI();
+            program.Run();
         }
     }
 }

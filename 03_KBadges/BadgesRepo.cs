@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _03_KBadges
 {
-    public  class KBadgesRepo
+    public  class BadgesRepo
     {
+
     }
 }
