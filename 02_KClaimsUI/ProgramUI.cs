@@ -106,7 +106,7 @@ namespace _02_KClaimsUI
             Console.WriteLine("Please enter the Claim ID: ");
             newClaim.ClaimID = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Please enter your Claim Types:\n" +
+            Console.WriteLine("Please select the number for your Claim Type :\n" +
               "1 - Car\n" +
               "2 - House\n" +
               "3 - Theft");

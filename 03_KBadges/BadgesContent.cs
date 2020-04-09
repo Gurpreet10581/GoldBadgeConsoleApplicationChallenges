@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace _03_KBadges
 {
-    public class BadgesClass
+    public class BadgesContent
     {
         public int BadgeId { get; set; }
         public List<string> DoorAccess { get; set; }
 
-        public BadgesClass() { }
+        public BadgesContent() { }
 
-        public BadgesClass(int badgeID, List<string> doorAccess)
+        public BadgesContent(int badgeId, List<string> doorAccess)
         {
-            BadgeId = badgeID;
+            BadgeId = badgeId;
             DoorAccess = doorAccess;
 
         }

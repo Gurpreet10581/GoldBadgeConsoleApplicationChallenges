@@ -14,13 +14,15 @@ namespace _02_KClaimUnitTest
         [TestMethod]
         public void ListOfClaims()
         {
+            //arrange
             ClaimContent testSecond = new ClaimContent(2, ClaimType.Home, "House fire in kitchen", 4000.00m, new DateTime(2018, 04, 11), new DateTime(2018, 04, 18), true);
             _repoTest.EnterNewClaim(testSecond);
 
-            
+            //act
             Queue<ClaimContent> queueListTest=_repoTest.GetListOfClaims();// no arrange needed because we are just calling the queue
 
             bool testagian = queueListTest.Contains(testSecond);
+            //assert
 
             Assert.IsTrue(testagian);
 
@@ -29,11 +31,12 @@ namespace _02_KClaimUnitTest
         [TestMethod]
         public void EnterNewClaimTest()
         {
+            //arrange
             ClaimContent content = new ClaimContent();
            
-
+            //act
             bool addClaim = _repoTest.EnterNewClaim(content);
-
+            //assert
             Assert.IsTrue(addClaim);
 
         }
