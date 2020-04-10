@@ -10,65 +10,76 @@ namespace _03_KBadges
     {
 
         Dictionary<int, List<string>> _badgeDictionary = new Dictionary<int, List<string>>();
-        List<string> doors = new List<string>();
-        List<int> Convert(List<string> stringList)
-        {
-            List<int> intList = new List<int>();
 
-            for (int i = 0; i < stringList.Count; i++)
-            {
-                intList.Add(int.Parse(stringList[i]));
-            }
-            return intList;
-        }
 
-        public Dictionary<int, List<string>> ListOfBadgesAndDoors(BadgesContent listItems)
+
+        public Dictionary<int, List<string>> ListOfBadgesAndDoors()
         {
             return _badgeDictionary;
         }
-        public void CreateNewBadge(BadgesContent newbadge)
+        public bool CreateNewBadge(BadgesContent newbadge)
         {
             _badgeDictionary.Add(newbadge.BadgeId, newbadge.DoorAccess);
-            
+
+            if (_badgeDictionary.ContainsKey(newbadge.BadgeId))
+            {
+                return true;
+            }
+            return false;
         }
 
-        public BadgesContent GetContentByBadgeId(int badgeId)
+        public List<string> GetDoorsByBadgeId(int badgeId)
         {
             foreach (KeyValuePair<int, List<string>> content in _badgeDictionary)
             {
-                foreach (string door in content.Value)
+                if (content.Key == badgeId)
                 {
-                    if (content.Key == badgeId)
-                    {
-                        BadgesContent badge = new BadgesContent(content.Key, content.Value);
-                        return badge;
-                    }
+                    return content.Value;
                 }
-
             }
             return null;
         }
 
-        public void RemoveDoorsFromBadge(int badges)
+        public bool RemoveDoorsFromBadge(int badges, string door)
         {
-            _badgeDictionary.Remove(badges);
+            List<string> doors = GetDoorsByBadgeId(badges);
+            doors.Remove(door);//used doors and called remove method and put door in to specify 
 
-        }
-        public BadgesContent UpdateDoorForBadge(int originalbadgeId, BadgesContent updateContent)
-        {
-
-            BadgesContent oldContent = GetContentByBadgeId(originalbadgeId);
-            if (oldContent != null)
-            {
-                oldContent.BadgeId = updateContent.BadgeId;
-                oldContent.BadgeId = updateContent.DoorAccess;
-
-                return true;
-            }
-            else
+            if (doors.Contains(door))
             {
                 return false;
             }
+            return true;
         }
+        //to add multiple doors
+        // pass in a List<string> doorsToAdd instead of a single string, so that means we'll have to new up a List and populate it with the doors we want to add
+        // getdoorsbybadgeId to get our Value from our KeyValuePair
+        // foreach through that list
+        // add each door to that list
+        
+        public bool AddDoorsToBadge(int badges, string door)
+        {
+            List<string> doors = GetDoorsByBadgeId(badges);
+            doors.Add(door);
+
+            if (doors.Contains(door))
+            {
+                return true;
+            }
+            return false;
+
+        }
+
+        public void seed()
+        {
+            List<string> seedList = new List<string>() { "A7", "A8", "A9", "A5" };
+            List<string> seedListOne = new List<string>() { "A73", "A84", "A59", "A59" };
+            BadgesContent badgeOne = new BadgesContent(1, seedList);
+            BadgesContent badgeTwo = new BadgesContent(2, seedListOne);
+            _badgeDictionary.Add(badgeOne.BadgeId, badgeOne.DoorAccess);//adding keyvaluepair to dict
+            _badgeDictionary.Add(badgeTwo.BadgeId, badgeTwo.DoorAccess);
+
+        }
+
     }
 }

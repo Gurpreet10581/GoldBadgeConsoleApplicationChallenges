@@ -25,3 +25,5 @@ C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChal
 C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\03_KBadgesUnitTest\obj\Debug\03_KBadgesUnitTest.csproj.CopyComplete
 C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\03_KBadgesUnitTest\obj\Debug\03_KBadgesUnitTest.dll
 C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\03_KBadgesUnitTest\obj\Debug\03_KBadgesUnitTest.pdb
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\03_KBadgesUnitTest\bin\Debug\03_KBadges.dll
+C:\Users\ergur\Desktop\ElevenfiftyProjects\HTMLCSSPrework\Gold Badge\ConsoleChallenge\03_KBadgesUnitTest\bin\Debug\03_KBadges.pdb
