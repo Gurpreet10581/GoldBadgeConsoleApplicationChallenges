@@ -69,25 +69,21 @@ namespace _03_KBadgesUI
             string doorInput = Console.ReadLine();
             doors.Add(doorInput);
 
-            bool running = true;
-            while (running)
+            Console.WriteLine("Your door access has been added");
+            Console.WriteLine("Do you waned to deal with current Claim?\n" +
+                "Enter Y for Yes\n" +
+                "Enter N for No");
+            string userInput = Console.ReadLine();
+            if (userInput == "Y")
             {
-                Console.Clear();
-
-                Console.WriteLine("Do want to add another door? (Y/N)");
-                string yesOrNo = Console.ReadLine();
-                switch (yesOrNo)
-                {
-                    case "Y":
-                        Console.WriteLine("Please advise the door that this badge can access?");
-                        string doorInput2 = Console.ReadLine();
-                        doors.Add(doorInput2);
-                        break;
-                    case "N":
-                        running = false;
-                        break;
-                }
+                CreateNewBadge();
             }
+            else
+            {
+                Console.WriteLine("Press any key to return to the menu...");
+                Console.ReadLine();
+            }
+            Console.ReadKey();
             BadgesContent newBadge = new BadgesContent(badgeId, doors);
             _repo.CreateNewBadge(newBadge);
 
@@ -99,12 +95,42 @@ namespace _03_KBadgesUI
 
         public void DeleteBadge()
         {
+            Console.Clear();
 
+            Dictionary<int, List<string>> badgeDict = _repo.ListOfBadgesAndDoors();
+            Console.WriteLine("Enter the BadgeId that you are wanting to remove");
+            int userInput = int.Parse(Console.ReadLine());
+
+            foreach (var badgeId in badgeDict)
+            {
+                if (userInput == badgeId.Key)
+                {
+                    _repo.GetDoorsByBadgeId(badgeId.Key);
+                    break;
+                }
+            }
         }
 
         public void ListOfBadgesAndDoors()
         {
 
+            Console.Clear();
+
+            Dictionary<int, List<string>> badgeDict = _repo.ListOfBadgesAndDoors();
+            foreach (KeyValuePair<int, List<string>> showBadge in badgeDict)
+            {
+                Console.Write($"Badge Id- {showBadge.Key}\n");
+                Console.Write("Accessible Doors- ");
+
+                foreach (string dictList in showBadge.Value)
+                {
+                    Console.Write($"{dictList}\n");
+                }
+
+            }
+
+            Console.WriteLine("\nPress enter to continue...");
+            Console.ReadLine();
         }
 
         public void BadgeSeed()
