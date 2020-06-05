@@ -70,11 +70,12 @@ namespace _03_KBadgesUI
             doors.Add(doorInput);
 
             Console.WriteLine("Your door access has been added");
-            Console.WriteLine("Do you waned to deal with current Claim?\n" +
-                "Enter Y for Yes\n" +
-                "Enter N for No");
-            string userInput = Console.ReadLine();
-            if (userInput == "Y")
+            Console.WriteLine("Do you waned to add another door?\n" +
+                "Enter y for Yes\n" +
+                "Enter n for No");
+            string userInput = Console.ReadLine().ToLower();
+            
+            if (userInput == "y")
             {
                 CreateNewBadge();
             }

@@ -9,7 +9,7 @@ namespace _01_CafeUI
 {
     public class ProgramUI
     {
-        MenuRepo _menuRepository = new MenuRepo();
+        MenuRepo _menuRepository = new MenuRepo();//creating a new instance with gives you access to everything in _menuRepository
         
 
         public void Run()

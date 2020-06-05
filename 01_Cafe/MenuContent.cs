@@ -8,7 +8,7 @@ namespace _01_Cafe
 {
     public class MenuContent
     {
-        public int MealNumber { get; set; }
+        public int MealNumber { get; set; } 
         public string Name { get; set; }
         public string Description { get; set; }
         public string Ingredients { get; set; }
@@ -16,7 +16,7 @@ namespace _01_Cafe
 
         public MenuContent() { }// empty constructer 
 
-        public MenuContent(int mealNumber, string name, string description, string ingredients, int price)//overloaded constructer 
+        public MenuContent(int mealNumber, string name, string description, string ingredients, int price)//overloaded constructer to create new objects for customer to use-blue ones are for customer use
         {
             MealNumber = mealNumber;
             Name = name;

@@ -9,12 +9,12 @@ namespace _01_CafeUnitTests
     public class CafeUnitTest
     {
         
-        MenuRepo _repo = new MenuRepo();// creaatinglist to link with repository first step to access
+        MenuRepo _repo = new MenuRepo();// creatinglist to link with repository first step to access/newing up 
         
         [TestMethod]
         public void AddItemToMenu_ShouldGeCorrectBool()
         {
-            MenuContent content = new MenuContent();
+            MenuContent content = new MenuContent();//content is a new object created for arrange part
             MenuRepo repo = new MenuRepo();
 
             bool addItem = repo.AddItemToMenu(content);
@@ -28,6 +28,7 @@ namespace _01_CafeUnitTests
         {
             MenuContent testContent = new MenuContent();
             MenuRepo repo = new MenuRepo();
+
             repo.AddItemToMenu(testContent);
 
             List<MenuContent> testList = repo.GetMenu();
